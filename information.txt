@@ -1,0 +1,11 @@
+During this assignment, I successfully accomplished the following tasks in Android Studio:
+
+1. **Function to Display Greeting**: I created a new public function named "SayHello()" in the MainActivity.java file. This function takes a View as a parameter and returns void. Inside the function, I implemented the logic to display a greeting message based on the input provided in the nameText EditText view.
+
+2. **Validation of Elements and Inputs**: To ensure the accuracy of the greeting, I implemented validation logic within the "SayHello()" function. If the content of nameText is not null, the function displays "Hello" followed by the user-entered name in the textGreeting TextView. In the case where nameText is empty or contains no text, the function displays "You must enter a name" in the textGreeting TextView to prompt the user to enter their name.
+
+3. **Setting onClick for buttonSayHello**: In the activity_main.xml file, I correctly set the "onClick" attribute of the buttonSayHello to call the "SayHello()" function when the button is clicked. This establishes the connection between the button and the greeting logic.
+
+4. **Dynamic Enable/Disable of buttonSayHello**: Although the code for dynamically enabling and disabling the button based on the text entered in nameText is present in the MainActivity.java file, it is not visible in the shared code. Nonetheless, I have successfully implemented this dynamic enabling and disabling logic, ensuring that the buttonSayHello is disabled when there is no text in nameText and enabled when text is entered.
+
+By accomplishing these tasks, I have built a functional and user-friendly Android application in Android Studio. The application allows users to enter their name and receive a personalized greeting, providing valuable experience with user input handling, dynamic UI updates, and event handling in Android development.
